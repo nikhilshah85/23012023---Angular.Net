@@ -1,0 +1,112 @@
+
+
+		
+
+				Web Revolution (this is a Coined term by W3C in 2015)
+
+			1. When did you use internet first time - World average 2004
+			2. Why did users used internet for in those days - 
+				Surfing, email, chatting, view my results
+			3. Where did ppl used internet those days - Home, Cybercafe, universities
+			4. Source of Internet - Modem - PhoneConnection - Broadband
+			5. How did ppl used internet - desktop - laptop 
+
+			6. We had been given XML - SOAP - data for cross platform communication
+
+	Thus web developers created web contents accordingly, and thus technology was in accordance
+		ASP.net, JSP, PHP etc... (old tech now a days)
+--------------------------------------------------------------------------------------------------
+			Today
+		2. Why do users used internet for in these days - for everything
+		3. Where do ppl used internet these days - Everywhere
+		4. Source of Internet - Mobile data - wifi
+		5. How did ppl used internet - Mobile - Tables - Watches - IOT devises
+		6. XML - SOAP - data for cross platform communication - is super slow, costly, heavy
+
+-----------------------------------------------------------------------------------------------------
+	Thus we need a better way to developer applications, process the request and response
+	Give better user experienceto end user
+
+		Thus a new psycology, terminology came in
+		Create a Single Paged Appliction (SPA App)
+
+		Divever a single page to user, this singe page is made up of many pages
+			Navigation will happen on client devise
+
+		user will come to server only for new data, for UI
+			communication is changed from XML-SOAP to JSON - lightest and fastest
+
+--------
+		Focus is now changed from Server Centeric APP (ASP.Net / JAVA) 
+		to 
+		client centeric app
+
+		Client Devise understands only - HTML, CSS and JS (this languages has their own drawbacks)
+				They are not OOPS based
+
+			Thus W3C and ECMA (European Computer Manufacturing Association)
+				came up with ES6 (Ecma Script) - which is Object Oriented Javascript
+
+			Problem - Syntax is from another world - not at all convinent 
+			Thus Microsoft - developed a compier and a languge with keywords based on ES6
+				called it as TypeScript
+
+			useing TS - Google developed a Client Centeric development framework 
+					Angular - which will run on Node
+
+
+
+
+			A shifted focus from developing Server Centeric APP to Client centeric app
+				is the new Web 
+
+
+--------------------------------------------------------
+		pause for 3 mins - quiestions if any
+		
+		Next : Angular Development Setup (3-4 mins)
+				a. NodeJS
+					https://nodejs.org/en/
+				b. VS Code
+					https://code.visualstudio.com/download
+				c. Angular CLI
+					this gets installed by NPM - node package manager
+					this is installed along with Node installation
+
+				npm install @angular/cli - this will install the latest version of angular
+				npm install @angular/cli@11.0 - for any specific version
+
+
+		       First Angular Application
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		

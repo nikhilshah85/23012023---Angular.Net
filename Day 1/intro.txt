@@ -1,0 +1,51 @@
+Good with HTML, CSS and JS
+Good with OOPS
+
+Lab setup (Have them in your machine / Cloud lab)
+NodeJS (above 13.0)
+VS Code
+Angular CLI
+----------------------------------
+Expectations
+1. Be interactive
+2. Be on time
+--
+last 10 mins for QnA
+-------------------------------------------------
+	Angular Developers
+
+--back of the mind they keep Web Revolution on top of the head
+--Components in Angular
+--Directives in Angular
+--Pipes in Angular
+	--In built pipes
+	--Custom Pipes development
+--Services in Angular
+	-- In built service (SPA / Routing, HttpClient etc)
+	-- Custom Service development
+--Routing 
+--Forms
+	--Reactive Forms
+	--Data Driven Forms
+--Angular Guards
+--Testing 
+	etc...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

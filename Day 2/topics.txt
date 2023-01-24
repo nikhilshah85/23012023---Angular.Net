@@ -1,0 +1,33 @@
+Day 1
+
+1. Web Revolution
+2. Angular Setup
+3. Angular important concept
+4. About typescript - ES
+5. Angular CLI - create first application 
+---------------------------------------------------------------
+Day 2
+1. Understand Component in Angular
+2. Develop Components
+	a. Types Data in Angular with component
+	b. Directives in Angular with component
+
+	Component is made up of 3 times (4th optional file)
+		a. Html (Html tags + directives + custom tags (other component)
+		b. CSS
+		c. .ts (OOPS)
+		b. spec.ts (unit test file)
+------------------------------------------------------------------
+	By Default, there is a component called App
+		This will call other custom components
+
+
+
+
+
+
+
+
+
+
+
