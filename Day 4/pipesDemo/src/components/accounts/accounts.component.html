@@ -1,0 +1,15 @@
+
+
+
+<table border="1">
+    <tr *ngFor="let a of accountDetails">
+        <td> {{ a.accNo }} </td>
+        <td> {{ a.accFirstName + " " + a.accLastName | titlecase | gender : a.accGender}} </td>
+        <td> {{ a.accBalance | currency : 'AUD' }} </td>
+        <td> {{ a.accGender }} </td>
+        <td> {{ a.accIsActive }} </td>
+        <td> {{ a.accType }} </td> 
+        <td> {{ a.accBalance | offer : a.accType : a.accBalance   }} </td>
+    
+    </tr>
+</table>

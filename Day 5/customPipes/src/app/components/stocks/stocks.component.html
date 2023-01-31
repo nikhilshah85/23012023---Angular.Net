@@ -1,0 +1,40 @@
+<p>stocks works!</p>
+
+
+
+<table border="1">
+    <tr>
+        <th> Stock ID </th>
+        <th> Stock  </th>
+        <th> Category  </th>
+        <th> Qty  </th>
+        <th> Purchase Price  </th>
+        <th> Current  </th>
+
+        <th> Investment  </th>
+        <th> Current  </th>
+        <th> Status </th>
+    </tr>
+
+    <tr *ngFor="let s of stockDetails">
+        <td> {{ s.stockId }} </td>
+        <td> {{ s.stockName }} </td>
+        <td> {{ s.stockCategory }} </td>
+        <td> {{ s.purchaseQty }} </td>
+        <td> {{ s.purchasePrice }} </td>
+        <td> {{ s.currentPrice }} </td>
+
+        <td> {{ s.purchasePrice * s.purchaseQty }} </td>        
+        <td> {{ s.currentPrice * s.purchaseQty }} </td>
+        <td> {{ ''  | stockStatus : s.purchasePrice : s.currentPrice}} </td>
+        
+
+    </tr>
+</table>
+<h1> Total Investment :  {{ '' | totalInvestment : stockDetails   }}</h1>
+
+<h1> Current Value :  {{ '' | currentInvestmentValue : stockDetails   }}</h1>
+<h1> Portfolio : {{ '' | portfolio : stockDetails }} </h1>
+
+
+

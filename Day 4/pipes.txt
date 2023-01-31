@@ -1,0 +1,14 @@
+Pipes
+	Pipes in Angular are used to Format the data display 
+		
+	{{ propery | pipeName }}
+	{{ empName | upper }}
+	{{ empSalary | | Currency : 'INR' : true }} 
+
+	There are 2 types of pipes u have
+	1. Inbuild pipe - upper, lower, currency, date, json etc...
+	2. Custom Pipe - developed by developer
+
+	
+
+	

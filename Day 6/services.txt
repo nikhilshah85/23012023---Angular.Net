@@ -1,0 +1,33 @@
+
+
+				Services in Angular
+
+
+
+	Share the logic between multiple components (functions / methods )
+	Share the data between multiple components (any data)
+
+	-------------------------------------------
+	Once you create a service, there are 2 ways to use them
+
+	1. create a new object of the service class,and call methods, properties etc whereever needed
+		--you take care of object destruction
+		--you take care of refrences, memory leak, memory release etc......
+		--object will be created in memory and use the memory when component is active, even though you 			do not use any method of any property of that object
+		-- data will not be in sync when 2 components creates 2 differnt objects in application
+
+	2. Use DI - dependency injection, which will lazy load and give bettern performance
+		--Object will be created by Angular runtime
+		-- data will be shared accross multiple components
+		--data will be in sync
+
+
+	------------------------------------------------
+				Service Types
+		1. Custom Service
+		2. Inbuild
+
+
+
+
+	

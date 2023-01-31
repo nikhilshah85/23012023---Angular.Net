@@ -1,0 +1,12 @@
+Task:	
+Add a new component - Employee
+have a JSON object array,
+ which will have
+empNo,
+empName,
+empDesigantion, 		empSalary, 		
+empIsPermenant
+have mininum 5 employees
+Display the data in a Div block
+
+	
