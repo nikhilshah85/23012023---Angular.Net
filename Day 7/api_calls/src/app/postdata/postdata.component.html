@@ -1,0 +1,44 @@
+<p>postdata works!</p>
+
+
+
+<button (click)="getPostData()"> View Post Data </button>
+<button (click)="getUserDetails()"> Display Users </button>
+
+<input type="number" placeholder="Enter Post ID" #pid (blur)="getPostById(pid.value)"/>
+
+
+
+<div style="background-color:lime">
+
+    <h3> User Id :  {{ postFilerData.userId }}</h3>
+    <h3> Id      :{{ postFilerData.id }}</h3>
+    <h3> Title   : {{ postFilerData.title }} </h3>
+    <h3> Post Details : {{ postFilerData.body }}</h3>
+
+</div>
+
+<table border="1">
+    <tr *ngFor="let p of postDetails">
+        <td> {{ p.userId }}</td>
+        <td> {{ p.id }}</td>
+        <td> {{ p.title }} </td>
+        <td> {{ p.body }}</td>
+    </tr>
+</table>
+
+<div *ngFor="let u of userInfoData" style="background-color: aqua">
+    <h3> Name : {{ u.name }} </h3>
+    <h3> User Name : {{ u.username }} </h3>
+    <h3> Email : {{ u.email }} </h3>
+    <h3> City : {{ u.address.city }} </h3>
+    <h3> Zip Code : {{ u.address.zipcode }} </h3>
+    <h3> lat and Lon : {{ u.address.geo.lat }} - {{  u.address.geo.lng  }} </h3>
+    <h3> Company Name : {{ u.company.name }} </h3>
+    <h3> CatchPhase : {{ u.company.catchPhrase }} </h3>
+    <hr/>
+</div>
+
+
+
+
