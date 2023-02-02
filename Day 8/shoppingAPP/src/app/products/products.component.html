@@ -1,0 +1,14 @@
+
+
+<h1> Product List</h1>
+<button (click)="getProducts()">Show Products</button>
+<table border="1">
+    <tr *ngFor="let p of productsList">
+        <td> {{ p.pId }} </td>
+        <td> {{ p.pName }} </td>
+        <td> {{ p.pCategory }} </td>
+        <td> {{ p.pPrice }} </td>
+        <td> {{ p.pIsInStock }} </td>
+        
+    </tr>
+</table>
